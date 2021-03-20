@@ -16,6 +16,7 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @ComponentScan(basePackages = "com.zyb")
 //@Import({MysqlConfig.class,myImportSelector.class,MyImportBeanDefinitionRegistrar.class})
+//引入外部bean
 @Import({MysqlConfig.class,MyImportBeanDefinitionRegistrar.class})
 public class SpringConfig {
 

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author by ben
- * @Description TODO
+ * @Description 手动注册bean
  * @Date 2021/3/17
  */
 @Component
@@ -20,6 +20,7 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
 
         GenericBeanDefinition  genericBeanDefinition = new GenericBeanDefinition();
         genericBeanDefinition.setBeanClass(Wife.class);
+        //手动命名bean的名字
         registry.registerBeanDefinition("wife2",genericBeanDefinition);
     }
 

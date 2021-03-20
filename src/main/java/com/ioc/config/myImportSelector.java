@@ -7,8 +7,8 @@ import org.springframework.core.type.AnnotationMetadata;
 
 /**
  * @author by ben
- * @Description TODO
- * @Date 2021/3/16
+ * @Description  返回多个指定的bean类型
+ *
  */
 public class myImportSelector implements ImportSelector {
 

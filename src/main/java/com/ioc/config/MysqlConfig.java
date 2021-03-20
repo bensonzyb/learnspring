@@ -9,6 +9,8 @@ import org.springframework.context.annotation.PropertySource;
  * @author by ben
  * @Description TODO
  * @Date 2021/3/16
+ *
+ * 创建外部Bean
  */
 @Configuration
 @PropertySource("classpath:db.properties")
