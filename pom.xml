@@ -28,6 +28,20 @@
       <version>4.13</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.5</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>5.2.6.RELEASE</version>
+    </dependency>
+
+
   </dependencies>
 
 </project>
