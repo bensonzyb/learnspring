@@ -21,7 +21,7 @@ public class AopUserDaoImpl  implements AopUserDao {
 
     @Override
     public void addUser(AopUser user) throws Exception {
-        if(null == user){
+        if(null == user || user.getId()==null){
             throw  new  Exception("user 不能为空");
         }
     }

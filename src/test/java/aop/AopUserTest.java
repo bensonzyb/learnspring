@@ -33,7 +33,10 @@ public class AopUserTest {
      System.out.println(aopUserServiceCglib.getClass());
 
       aopUserService.select(2);
-      aopUserService2.addUser(new AopUser());
+      System.out.println("select ----------end ");
+      //aopUserService.addUser(new AopUser());
+      System.out.println("addUser ----------end ");
+      //aopUserService2.addUser(new AopUser());
 
   }
 
